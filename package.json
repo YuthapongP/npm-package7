@@ -2,14 +2,15 @@
   "name": "nicky-package7",
   "version": "1.0.17",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0",
     "styled-components": "^5.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d lib"
+    "build": "tsup components/index.ts --format esm, cjs --dts --external react"
   },
   "repository": {
     "type": "git",
