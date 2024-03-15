@@ -1,7 +1,7 @@
-import React, { ReactNode } from "react";
+import React from "react";
 import styled, { css } from "styled-components";
 
-import { ComponentProps } from "react";
+// import { ComponentProps } from "react";
 
 const StyledButton = styled.button`
   ${({ color }) => css`
@@ -20,17 +20,17 @@ const StyledButton = styled.button`
   `}
 `;
 
-export type ButtonComponentProps = ComponentProps<"button">;
+// export type ButtonComponentProps = ComponentProps<"button">;
 
-type NormalReactComponentType = {
-  children?: ReactNode;
-  label?: string;
-  color?: string;
-};
+// type NormalReactComponentType = {
+//   children?: ReactNode;
+//   label?: string;
+//   color?: string;
+// };
 
-type ComnbineType = ButtonComponentProps & NormalReactComponentType;
+// type ComnbineType = ButtonComponentProps & NormalReactComponentType
 
-const NormalReactComponent: React.FC<ComnbineType> = ({ children, color }) => {
+const NormalReactComponent = ({ children, color }) => {
   return (
     <div>
       <StyledButton color={color}>{children}</StyledButton>
