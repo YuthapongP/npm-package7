@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const StyledButton = styled.button`
+export const StyledButton = styled.button`
   background-color: #007bff;
   color: white;
   font-size: 16px;
@@ -23,4 +23,4 @@ function NormalButton() {
   );
 }
 
-export default NormalButton;
+export {NormalButton};
