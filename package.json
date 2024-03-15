@@ -23,6 +23,10 @@
   },
   "homepage": "https://github.com/YuthapongP/npm-package7#readme",
   "dependencies": {
-    "styled-components": "^6.1.8"
+    "styled-components": "^5.0.0"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.4.8",
+    "tsup": "^8.0.2"
   }
 }
