@@ -2,7 +2,7 @@
   "name": "nicky-package7",
   "version": "1.0.16",
   "description": "",
-  "main": "index.jsx",
+  "main": "index.js",
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0",
     "styled-components": "^5.0.0"
