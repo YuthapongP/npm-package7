@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/YuthapongP/npm-package7/issues"
   },
-  "homepage": "https://github.com/YuthapongP/npm-package7#readme"
+  "homepage": "https://github.com/YuthapongP/npm-package7#readme",
+  "dependencies": {
+    "styled-components": "^6.1.8"
+  }
 }
