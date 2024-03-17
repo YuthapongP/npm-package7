@@ -1,6 +1,6 @@
 {
-  "name": "nicky-package7",
-  "version": "1.0.24",
+  "name": "@yuthapongp/nicky-package7",
+  "version": "1.0.21",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
