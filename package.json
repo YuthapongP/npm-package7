@@ -1,5 +1,5 @@
 {
-  "name": "@nicky-package7/simple-ui",
+  "name": "nicky-package7",
   "version": "1.0.24",
   "description": "",
   "main": "dist/index.js",
